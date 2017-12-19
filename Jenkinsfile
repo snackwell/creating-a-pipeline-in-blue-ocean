@@ -11,7 +11,7 @@ pipeline {
     stage('Build') {
       steps {
         sh '''whoami
-sudo npm install'''
+ npm install'''
       }
     }
   }
